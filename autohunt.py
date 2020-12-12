@@ -9,12 +9,12 @@ def open_discord():
 
 
 def hunt_battle():
-    pyautogui.typewrite('owoh\n')
+    pyautogui.typewrite('owoh\n', interval=0.2)
     time.sleep(1)
-    pyautogui.typewrite('owob\n')
+    pyautogui.typewrite('owob\n', interval=0.2)
     time.sleep(1)
     #pyautogui.typewrite('owosell all\n')
-    pyautogui.typewrite('owo\n')
+    pyautogui.typewrite('owo\n', interval=0.2)
     time.sleep(20)
 
 def main():
